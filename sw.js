@@ -4,7 +4,7 @@ const FILES = [
   "index.html",
   "app.wasm",
   "odin.js",
-  "icon-192.png"
+  "fight192.png"
 ];
 
 self.addEventListener("install", e => {
