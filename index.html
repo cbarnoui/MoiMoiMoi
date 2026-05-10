@@ -5,8 +5,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 	<title>Odin + Raylib on the web</title>
-	<meta name="title" content="Odin + Raylib on the web">
-	<meta name="description" content="Make games using Odin + Raylib that work in the browser">
+	<meta name="title" content="MoiMoiMoi">
+	<meta name="description" content="Track whose turn is it do do/have things">
 	<meta name="viewport" content="width=device-width">
 
 	<style>
@@ -25,6 +25,13 @@
 			display: block;
 		}
 	</style>
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#000000">
+	<script>
+		if ("serviceWorker" in navigator) {
+		navigator.serviceWorker.register("sw.js");
+		}
+	</script>
 </head>
 <body>
 	<canvas class="game_canvas" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1" onmousedown="event.target.focus()" onkeydown="event.preventDefault()"></canvas>
