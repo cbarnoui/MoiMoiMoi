@@ -27,7 +27,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\cb959\AppData\Local\Temp\tmpj71jpyd_.js
+// include: C:\Users\cb959\AppData\Local\Temp\tmp8p_yoduj.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -207,25 +207,25 @@ Module['FS_createPath']("/assets", "Sounds", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/Fonts/Acme 9 Regular Bold Xtnd.ttf", "start": 0, "end": 53564}, {"filename": "/assets/Fonts/Acme 9 Regular Bold.ttf", "start": 53564, "end": 107168}, {"filename": "/assets/Fonts/Acme 9 Regular Xtnd.ttf", "start": 107168, "end": 176072}, {"filename": "/assets/Fonts/Acme 9 Regular.ttf", "start": 176072, "end": 245312}, {"filename": "/assets/Fonts/Usage Guides.pdf", "start": 245312, "end": 277382}, {"filename": "/assets/Images/Bathtub.png", "start": 277382, "end": 304081}, {"filename": "/assets/Images/Chair.png", "start": 304081, "end": 344868}, {"filename": "/assets/Images/Coffee.png", "start": 344868, "end": 361137}, {"filename": "/assets/Sounds/alarm.mp3", "start": 361137, "end": 464195, "audio": 1}, {"filename": "/assets/Sounds/click.wav", "start": 464195, "end": 468191, "audio": 1}, {"filename": "/assets/Sounds/confirmed.wav", "start": 468191, "end": 504241, "audio": 1}, {"filename": "/assets/Sounds/failure.wav", "start": 504241, "end": 657987, "audio": 1}, {"filename": "/assets/Sounds/failureLoud.wav", "start": 657987, "end": 811703, "audio": 1}, {"filename": "/assets/Sounds/positive-blip-effect.wav", "start": 811703, "end": 1062743, "audio": 1}], "remote_package_size": 1062743});
+    loadPackage({"files": [{"filename": "/assets/Fonts/Acme 9 Regular Bold Xtnd.ttf", "start": 0, "end": 53564}, {"filename": "/assets/Fonts/Acme 9 Regular Bold.ttf", "start": 53564, "end": 107168}, {"filename": "/assets/Fonts/Acme 9 Regular Xtnd.ttf", "start": 107168, "end": 176072}, {"filename": "/assets/Fonts/Acme 9 Regular.ttf", "start": 176072, "end": 245312}, {"filename": "/assets/Fonts/Usage Guides.pdf", "start": 245312, "end": 277382}, {"filename": "/assets/Images/Bathtub.png", "start": 277382, "end": 304081}, {"filename": "/assets/Images/Chair.png", "start": 304081, "end": 344868}, {"filename": "/assets/Images/Coffee.png", "start": 344868, "end": 361137}, {"filename": "/assets/Images/Cutlery.png", "start": 361137, "end": 397216}, {"filename": "/assets/Sounds/alarm.mp3", "start": 397216, "end": 500274, "audio": 1}, {"filename": "/assets/Sounds/click.wav", "start": 500274, "end": 504270, "audio": 1}, {"filename": "/assets/Sounds/confirmed.wav", "start": 504270, "end": 540320, "audio": 1}, {"filename": "/assets/Sounds/failure.wav", "start": 540320, "end": 694066, "audio": 1}, {"filename": "/assets/Sounds/failureLoud.wav", "start": 694066, "end": 847782, "audio": 1}, {"filename": "/assets/Sounds/positive-blip-effect.wav", "start": 847782, "end": 1098822, "audio": 1}], "remote_package_size": 1098822});
 
   })();
 
-// end include: C:\Users\cb959\AppData\Local\Temp\tmpj71jpyd_.js
-// include: C:\Users\cb959\AppData\Local\Temp\tmpj2bpl743.js
+// end include: C:\Users\cb959\AppData\Local\Temp\tmp8p_yoduj.js
+// include: C:\Users\cb959\AppData\Local\Temp\tmp19h2clop.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\cb959\AppData\Local\Temp\tmpj2bpl743.js
-// include: C:\Users\cb959\AppData\Local\Temp\tmp4383g9dp.js
+  // end include: C:\Users\cb959\AppData\Local\Temp\tmp19h2clop.js
+// include: C:\Users\cb959\AppData\Local\Temp\tmpk9xfoix_.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\cb959\AppData\Local\Temp\tmp4383g9dp.js
+  // end include: C:\Users\cb959\AppData\Local\Temp\tmpk9xfoix_.js
 
 
 var arguments_ = [];
