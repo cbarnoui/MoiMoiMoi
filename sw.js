@@ -1,4 +1,4 @@
-const CACHE = "odin-game-v2";
+const CACHE = "odin-game-v3";
 const FILES = [
   ".",
   "index.html",
